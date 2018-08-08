@@ -1,0 +1,127 @@
+@media only screen and (min-width: 360px)
+{
+	
+}
+@media only screen and (min-width: 601px)
+{
+
+}
+
+@media only screen and (min-width: 993px)
+{
+ .counter .parallax-container
+ {
+	height: 300px;
+ }
+ .banner .welcome .container .row
+ {
+ 	position: relative;
+ }
+ .banner .admin-img-col
+ {
+ 	display: flex;
+ 	align-content: flex-end;
+ }
+ .banner .admin-img-col .admin-img
+ {
+ 	display: flex;
+ 	align-content: flex-end;
+ }
+
+
+}
+
+@media only screen and (min-width: 1201px)
+{
+
+}
+
+@media only screen and (max-width: 993px)
+{
+	.banner 
+	{
+		height: 800px;
+	}
+	.banner .welcome
+	{
+		height: 100%;
+	}
+	.banner .welcome .info
+	{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	
+	.banner .welcome .info .skill .a-t-wrp
+	{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	.banner .admin-img
+	{
+		
+	}
+
+	.banner .welcome .admin-img
+	{
+		border-top-left-radius: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+	.banner .welcome .info h1
+	{
+		font-size: 34px;
+		margin-bottom: 10px;
+	}
+	.banner .welcome .info .skill
+	{
+		background-color: ;
+		height: 23px !important;
+		margin-bottom: 4px;
+	}
+	.banner .welcome .info .skill h5
+	{
+		font-size: 20px;
+	}
+	.banner .welcome .info .start-btn a
+	{
+		width: 100px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.port .port-hdr ul.tabs
+	{
+		width: 300px;
+	}
+	.counter .parallax-container
+	{
+		height: 900px;
+	}
+}
+
+@media only screen and (max-width: 360px)
+{
+	.banner 
+	{
+		height: 650px;
+	}
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 992px)
+{
+	.banner .welcome .info h1
+	{
+		font-size: 33px;
+	}
+	.banner .welcome .info .start-btn a
+	{
+		width: 100px;
+		height: 40px;
+		line-height: 40px;
+	}
+}

@@ -1,0 +1,58 @@
+
+/*
+	=====================================
+		Animation for portfolio section
+	=====================================
+*/
+
+[data-aos="html_css"],
+[data-aos="js"],
+[data-aos="jquery"],
+[data-aos="css_framework"],
+[data-aos="wp"],
+[data-aos="php"]
+{
+	width: 0;
+}
+[data-aos="html_css"].aos-animate
+{
+	width: 80%;
+}
+[data-aos="js"].aos-animate
+{
+	width: 60%;
+}
+[data-aos="jquery"].aos-animate
+{
+	width: 65%;
+}
+[data-aos="css_framework"].aos-animate
+{
+	width: 95%;
+}
+[data-aos="wp"].aos-animate
+{
+	width: 70%;
+}
+[data-aos="php"].aos-animate
+{
+	width: 50%;
+}
+/*
+	=====================================
+		Animation for portfolio section
+	=====================================
+*/
+@keyframes see_more_port
+{
+	0%
+	{
+		opacity: 0;
+		right: -22px;
+	}
+	100%
+	{
+		opacity: 1;
+		right: -40px;
+	}
+}
